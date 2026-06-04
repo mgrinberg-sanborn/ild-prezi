@@ -1,30 +1,220 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Medium: Presentations for Lazy Messy Hackers</title>
-    <meta charset='utf-8'>
-    <meta property="og:title" content="Medium"/>
-    <meta property="og:description" content="Presentations for Lazy Messy Hackers"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-   <link href='medium.css' rel='stylesheet' type='text/css' />
-   <script type="text/javascript">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>Mark Grinberg — Inspired Learning Day</title>
+  <link href="big.css" rel="stylesheet" type="text/css" />
+  <link href="themes/dark.css" rel="stylesheet" type="text/css" />
+  <style>
+    em { color: #418AD0; }
+    strong { color: #8dbd0c; }
+    .small { font-size: 0.4em; opacity: 0.8; }
+    .tiny { font-size: 0.25em; opacity: 0.7; }
+    .joke { color: #f0c040; font-style: italic; }
+    .punch { color: #f0c040; }
+    ul, ol { text-align: left; margin: 0; padding-left: 1.2em; }
+    li { margin: 0.1em 0; }
+    .caption { font-size: 0.3em; color: #fff; text-shadow: 0 0 8px #000; }
+    .map-bg { color: #fff; text-shadow: 0 2px 10px #000, 0 0 5px #000; }
+  </style>
+  <script src="big.js"></script>
+</head>
+<body class="dark">
 
-  var _gaq = _gaq || [];
-  //replace me
-  _gaq.push(['_setAccount', 'UA-31218444-1']);
-  _gaq.push(['_trackPageview']);
+<div>
+  Hi! I'm <em>Mark</em>
+</div>
+<div>
+<div class="small">Software Engineering Manager · Sanborn Map Company</div>
+  <notes>Wave, smile, thank the teachers.</notes>
+</div>
+<div>Why am I <em>here?</em></div>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+<div>
+  <ul>
+    I <em>learned</em> that there isn't just one path to <em>success</em> — and that <strong>engineering is everywhere</strong>
+    <notes>I want to do the same for you</notes>
+    <notes>How many of you have built something in Minecraft, edited a video, built a game, or solved a problem with technology?</notes>
+  </ul>
+</div>
 
-</script>
+<div>
+  My hope today:
+  <div class="small">you leave with <strong>one idea</strong> — that engineering can be anywhere you want it to be</div>
+</div>
 
-<body>
+<div>So — what do I <em>do?</em></div>
 
-<span id="md">
-</span>
-<script src='marked.js'></script>
-<script src='medium.js'></script></head>
+<div data-body-style="background-image:url(sanborn-boston.jpg);background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#000;">
+  <div class="map-bg"><em>Sanborn</em> Map Company</div>
+  <notes>Sanborn has been making maps since 1866.</notes>
+</div>
+
+<div>
+  We make <em>digital</em> maps
+  <div class="small">for cities, states, the government, and private companies</div>
+</div>
+
+<div data-body-style="background-image:url(sanborn-maps.jpg);background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#000;">
+  <div class="map-bg">like <em>this</em></div>
+</div>
+
+<div>
+  I lead a team of <em>8 engineers</em>
+  <div class="small">we build with all sorts of <em>tech</em>...</div>
+</div>
+
+<div style="line-height:1">
+  <span style="font-size:0.5em">🧰 my team's toolbox</span><br>
+  <span style="font-size:1em"><em>JavaScript</em> <span style="font-size:0.5em">(Node.js, React)</span></span><br>
+  <span style="font-size:0.84em">Ruby on Rails</span><br>
+  <span style="font-size:0.72em">PostgreSQL <span style="font-size:0.6em">(PostGIS)</span></span><br>
+  <span style="font-size:0.62em">Python</span><br>
+  <span style="font-size:0.54em">Rust</span><br>
+  <span style="font-size:0.47em">Google Cloud Platform / Maps</span><br>
+  <span style="font-size:0.41em">Redis</span><br>
+  <span style="font-size:0.36em">Docker</span><br>
+  <span style="font-size:0.32em">React Native (iOS, Android)</span><br>
+  <span style="font-size:0.28em">AWS</span><br>
+  <span style="font-size:0.25em">Azure</span><br>
+  <span style="font-size:0.22em">Kubernetes</span><br>
+  <span style="font-size:0.2em">Cesium <span style="font-size:0.7em">(3D maps)</span></span><br>
+  <span style="font-size:0.18em">QGIS</span><br>
+  <span style="font-size:0.16em">Leaflet Maps</span><br>
+  <span style="font-size:0.14em">C#</span><br>
+  <span style="font-size:0.12em">R</span><br>
+  <span style="font-size:0.11em">PHP</span><br>
+  <span style="font-size:0.5em">and more...</span>
+</div>
+
+<div>
+  Honestly?
+  <div class="small">most engineering is <em>learning new tools</em> — constantly.</div>
+  <notes>Pause. The list isn't to impress — it's to show that no one knows all this on day one.</notes>
+</div>
+
+<div>OK — but what does an engineering manager <em>actually do</em> all day?</div>
+
+<div data-body-style="background-image:url(compiling.png);background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#fff;">
+  &nbsp;
+  <notes>xkcd #303 — "Compiling"</notes>
+</div>
+
+<div>Let me walk you through a <em>week</em></div>
+
+<div>
+  <strong>Every morning</strong>
+  <div class="small">15-minute standup with the whole team</div>
+  <div class="small">what did you do yesterday? · what are you doing today? · what's <em>blocking</em> you?</div>
+</div>
+
+<div>
+  <strong>Monday</strong> — 1-on-1s
+  <div class="small">30 minutes with each engineer</div>
+  <div class="small">how's life? how's the code? what do you need from me?</div>
+</div>
+
+<div>
+  <strong>Tuesday</strong> — <em>code</em>
+  <div class="small">building a mobile app to show roadway conditions for all of Texas, used by hundreds of thousands of people daily!</div>
+</div>
+
+<div>
+  <strong>Wednesday</strong> — Deploy and meet with customers!
+  <div class="small">get feedback, update on our progress</div>
+</div>
+
+<div>
+  <strong>Thursday</strong> — build a <em>prototype</em>
+  <div class="small">can we detect highway <em>work zones</em> from traffic-camera feeds?</div>
+  <div class="small">(spoiler: yes, with a little AI)</div>
+</div>
+
+<div>
+  <strong>Friday</strong> — dev lunch
+  <div class="small">then I read through the team's code and tell them what's great and what could be better</div>
+</div>
+<div data-body-style="background-image:url(friday-deploy.png);background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#000;">
+  &nbsp;
+  <notes>One does not simply deploy on Friday</notes>
+</div>
+<div>Now — <em>how</em> did I end up here?</div>
+
+<div>
+  I went to <strong>Brandeis University</strong>
+  <div class="small">studied <em>International &amp; Global Studies</em></div>
+  <div class="small">note - not computer science!</div>
+</div>
+
+<div>
+  While there, I started working at the <strong>computer help desk</strong>
+  <div class="small">fixing people's busted laptops</div>
+  <div class="small">turns out — I <em>loved</em> it</div>
+</div>
+
+<div>
+  So I tried a <em>CS class</em>
+  <div class="small">I almost <strong>failed</strong> it</div>
+  <div class="small">(humbling.)</div>
+</div>
+
+<div>
+  But I remember the one assignment I loved -- building an airplane seat reservation system
+  <div class="small">I got to design the UI and write the code to make it work</div>
+  <div class="small">it was the first time I got to <em>build something</em> from scratch and see it come to life</div>
+</div>
+
+<div>
+  And here's the thing I didn't notice at the time…
+  <div class="small">tech was sneaking into <em>everything</em> I did</div>
+  <div class="small">I got hooked on <em>building things</em></div>
+</div>
+
+<div>
+  At the <strong>help desk</strong>
+  <div class="small">I wasn't just fixing laptops — I was <em>tweaking the little apps</em> we used to run shifts and tickets</div>
+  <div class="small">I was learning <em>PHP</em> and <em>HTML</em> to build tools to make my job easier, and I loved it</div>
+</div>
+
+<div data-body-style="background-color:#000;">
+  <div style="display:flex;align-items:center;gap:0.3em;text-align:left">
+    <div style="flex:0 0 55%">
+      During college, I rowed
+      <div class="small">(and later coached for the <em>US National Team</em>)</div>
+      <div class="small">and I <em>built tools</em> for my teams — rosters, <em>lineups</em>, workouts</div>
+    </div>
+    <img src="rigging.jpg" style="flex:0 0 40%;width:40%;height:auto;object-fit:cover;object-position:left center;clip-path:inset(0 30% 0 0);margin-right:-12%">
+  </div>
+  <notes>Rigging the USA boat at a World Cup.</notes>
+</div>
+
+<div>
+  Same thread, different places:
+  <div class="small"><em>find a problem</em> → <strong>build something</strong> → make it <em>better for people</em></div>
+  <div class="small">that's <strong>engineering</strong>, and it is everywhere.</div>
+</div>
+
+<div>So — what are the <em>takeaways?</em></div>
+
+<div>
+  <ol>
+    <li>follow your <em>passions</em></li>
+    <li>engineering is <em>everywhere</em></li>
+    <li>learn to work on a <strong>team</strong></li>
+    <li>break things <span class="small">(then fix them)</span></li>
+    <li>ask <em>why?</em> (and <em>why not?</em>)</li>
+    <li>learn from <em>everyone</em> around you</li>
+    <li>Hard Work Makes Good Code</li>
+  </ol>
+</div>
+
+<div>
+  Thanks for listening!
+  <div class="small">now go <em>build something</em></div>
+</div>
+
+<div><em>Questions?</em></div>
+
+</body>
+</html>
